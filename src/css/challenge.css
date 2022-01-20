@@ -1,0 +1,91 @@
+.challenge {
+  width: 800px;
+  border-radius: 20px;
+  background: #24385b;
+}
+
+.challenge--body {
+  display: flex;
+}
+
+.challenge--cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+}
+
+.challenge--details {
+  padding: 40px 20px;
+  color: #fff;
+}
+
+.challenge--details .challenge--title {
+  margin-bottom: 10px;
+}
+
+.challenge--data {
+  margin: 15px auto 10px;
+  width: max-content;
+}
+
+.challenge--data span {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 2px solid #121f3d;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.challenge--courses {
+  margin: 15px;
+  display: flex;
+  list-style: none;
+}
+
+.challenge--courses .challenge--course {
+  margin: 0 5px;
+}
+
+.challenge--courses .challenge--course a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.challenge--courses .challenge--course a p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.challenge--courses img {
+  width: 35px;
+  height: 35px;
+}
+
+.challenge--buttons {
+  display: flex;
+}
+
+.challenge--buttons .challenge--button {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  background: transparent;
+  transition: all 0.3s;
+}
+
+.challenge--button.left {
+  border-right: 1px solid #121f3d;
+}
+
+.challenge--button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  background: #121f3d;
+}
